@@ -1,5 +1,6 @@
 import React from "react";
 import Typography from "typography";
+import Link from "gatsby-link";
 
 export default () => (
   <div style={{ margin: "3em auto", maxWidth: 600 }}>
@@ -23,5 +24,6 @@ export default () => (
       </blockquote>
     </div>
     <p>Posted April 09, 2011</p>
+    <Link to="/about-css-modules">About CSS Modules</Link>
   </div>
 );

@@ -7,7 +7,8 @@
     "gatsby": "^1.0.1",
     "gatsby-link": "^1.0.1",
     "gatsby-plugin-react-helmet": "^1.0.1",
-    "gatsby-plugin-typography": "^1.7.9"
+    "gatsby-plugin-typography": "^1.7.9",
+    "typography-theme-fairy-gates": "^0.15.11"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"
