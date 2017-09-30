@@ -1,0 +1,31 @@
+.siteTitle {
+  font-size: 5vh;
+}
+.siteTitle:hover {
+  text-decoration: none;
+  color: gray;
+}
+.picGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 32%;
+  margin: 20px;
+}
+.example img {
+  box-shadow: 5px 5px 2px black;
+  flex-shrink: 0;
+  min-width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
