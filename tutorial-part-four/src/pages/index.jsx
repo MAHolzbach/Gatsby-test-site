@@ -10,7 +10,7 @@ const Example = props => (
   </div>
 );
 
-export default () => (
+export default ({ children, data }) => (
   <div>
     <Navbar />
     <Container>
